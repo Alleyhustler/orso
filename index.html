@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lava Cat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url('images/giphy_1.gif') repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .navbar {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .navbar button {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .navbar button:hover {
+            background-color: #666;
+            transform: scale(1.05);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            padding: 10px;
+        }
+        .logo h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    animation: colorChange 5s infinite;
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff); /* Vibrant gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes colorChange {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 100% 0%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 15px; /* Increased spacing between icons */
+        }
+        .social-media img {
+            width: 60px; /* Increased icon size */
+            height: 60px; /* Increased icon size */
+            vertical-align: middle;
+            border: none; /* Ensures no border around icons */
+            background: none; /* Ensures no background color or image */
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        .social-media img:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+        .buttons {
+            text-align: center;
+        }
+        .buttons button {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .buttons button:hover {
+            background-color: #666;
+            transform: scale(1.05);
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .footer input {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .footer p {
+            margin: 10px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>$ORSO</h1>
+        <img src="images/codyy.jpg" alt="Lava Cat">
+        <div class="social-media">
+            <a href="https://t.me/+r5OBmN3C2PAyN2E8" target="_blank">
+                <img src="images/image-removebg-preview (19).png" alt="Telegram">
+            </a>
+            <a href="https://x.com/orsoonsol" target="_blank">
+                <img src="images/twitter_x_new_logo_x_rounded_icon_256078 (1).webp" alt="Twitter">
+            </a>
+            </a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+        <input type="text" value="ORSOCASOON" readonly>
+        <p>Click above to copy the link.</p>
+    </div>
+</body>
+</html>
